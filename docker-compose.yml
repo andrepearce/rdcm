@@ -1,0 +1,8 @@
+$ cat .env
+TAG=v1.5
+
+$ cat docker-compose.yml
+version: '3'
+services:
+  web:
+    image: "webapp:${TAG}"
