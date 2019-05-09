@@ -8,4 +8,4 @@ RUN pip3 install --upgrade pip
 
 COPY rdcm /opt/rdcm
 
-CMD /opt/rdcm/rdcm.py
+ENTRYPOINT [ "/opt/rdcm/rdcm.py" ]
