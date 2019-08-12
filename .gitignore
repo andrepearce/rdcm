@@ -3,9 +3,27 @@
 
 # Compiled python modules.
 *.pyc
+*.so
 
 # Setuptools distribution folder.
 */dist/
 
+# Build directory
+*/build/
+
 # Python egg metadata, regenerated from source files by setuptools.
 *.egg-info
+*.egg
+
+# Visual Studio Code
+.vscode
+
+# OS generated files #
+#############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
