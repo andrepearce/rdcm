@@ -35,3 +35,11 @@ Inputs ENV-
 Outputs -
     - Python Logger output
     - Location or outcome of the reuqest
+
+## Manual Steps
+certbot certonly --staging --preferred-challenges dns -d lordsquirrel.net --keep-until-expiring --dns-route53
+
+For user permissions, check out -> https://gist.github.com/andrepearce/653ed2673b43a19c6a9ab62e3042848d
+
+## Debugging
+For debugging you can also exec into the container and execute certbot commands directly
